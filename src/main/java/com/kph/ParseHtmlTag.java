@@ -68,7 +68,8 @@ public class ParseHtmlTag {
 
     public static String extractPattern(String regxStr, String inp) {
         //System.out.println("matching pattern:" + regxStr + " with value: " + inp);
-        Pattern pattern = Pattern.compile(regxStr, Pattern.LITERAL);
+        //Pattern pattern = Pattern.compile(regxStr, Pattern.LITERAL);
+        Pattern pattern = Pattern.compile(regxStr);
         Matcher m = pattern.matcher(inp);
         String ret = null;
         if (m.find()) {

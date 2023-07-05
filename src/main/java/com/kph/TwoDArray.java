@@ -7,14 +7,14 @@ public class TwoDArray {
     public static void main(String[] args) {
 
         String[] inpStr = new String[]{ "3", "0", "0", "0", "0", "0", "0", "0"
-//                "5",
-//                "5 41 77 74 22 44",
+//                "5",   //num of input lines
+//                "5 41 77 74 22 44", //
 //                "1 12",
 //                "4 37 34 36 52",
 //                "0",
 //                "3 20 22 33",
-//                "5",
-//                "1 3",
+//                "5",    // num of query line
+//                "1 3",  // return above 2D array[1][3] value
 //                "3 4",
 //                "3 1",
 //                "4 3",
